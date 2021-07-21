@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background: #333;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    z-index: 999;
+
+}
+
+.nav {
+    overflow: hidden;
+    width: 100%;
+    height: 45px;
+    
+}
+
+.nav li {
+    float: left;
+    list-style: none;
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    padding: 10px 24px;
+}
+
+.nav li a {
+    font-family: sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    color:#fff;
+    
+}
+
+.nav li:hover {
+    background-color: rgb(70, 69, 69);
+}
+
+.section {
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#overview {
+    background: url("img/overview.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.section .box {
+    color: white;
+    /* position: relative; */
+    width: 90%;
+    margin:  auto;
+    
+}
+
+.center {
+    position: relative;
+    top: 35%;
+    transform: translate(0%, -50%);
+    
+}
+
+.box  h1 {
+    
+    width: 75%;
+    font-size: 4rem;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    margin: auto;
+    
+}
+
+.box  h2 {
+
+    width: 70%;
+    font-size: 2rem;
+    padding-bottom: 5vh;
+    margin: auto;
+}
+
+.box p {
+    width: 75%;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin: auto;
+
+}
+
+#music {
+    background-color: #252529;
+    height: 100%;
+    padding: 5vh 0;
+}
+
+.icon {
+    width: 45px;
+
+}
+
+.icon img {
+    width: 100%px;
+    /* height: 1px; */
+}
+
+#mh1 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.but {
+    margin: 25px;
+    width: 200px;
+
+}
+
+.box input[type="button"] {
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+.box input[type="button"]:hover {
+    background-color: rgb(255, 60, 60);
+}
+
+.box .s1 {
+    font-size: 16px;
+}
+
+.ban {
+    width: 90vw;
+    margin: auto;
+}
+
+.ban img {
+    align-items: center;
+    width: 80%;
+}
+
+#video {
+    background-color: white;
+    height: 100%;
+    padding: 50px 0;
+}
+
+#video .box {
+    color: rgb(29, 29, 29);
+    font-family:  'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+#video .but {
+    margin: 25px;
+    width: 130px;
+}
+
+#video .box input[type="button"]{
+    background-color: darkblue;
+}
+
+#video .box input[type="button"]:hover{
+    background-color: rgb(47, 47, 143);
+}
+
+#entertainment {
+    background-image: url("img/entertainment.jpeg");
+    height: 50%;
+    
+}
+
+#entertainment .box {
+    padding-bottom: 0;
+    padding: 8vw 3vw;
+    margin: auto;
+    
+
+}
+
+/* gift cards section styling */
+
+#giftcards {
+    background-color: white;
+    width: 100%;
+    height: 50vh;
+    /* padding: 5px 0; */
+}
+
+#giftcards .box {
+    
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 0px 10vw;
+    word-wrap: break-word;
+}
+
+.side-img {
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+}
+
+.side-box {
+    color: grey;
+    margin: 0;
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    padding: 30px 0;
+    
+}
+
+
+#giftcards .side-box h2{
+    
+    color: #333;
+    text-align: left;
+    padding: 20px 0px;
+
+}
+
+
+
+.side-box h2 , .side-box p{
+    width: 100%;
+}
+
+.side-box p {
+
+    padding: 10px 0;
+}
+
+#giftcards .re {
+    width: 100%;
+    height: 20px; 
+    margin-top: 10px;
+}
+
+#giftcards .arrow {
+    float: left;
+    width: 15px;
+    height: 15px;
+    padding: 3px 0px;
+}
+
+
+
+#giftcards .re .no {
+    
+    width: 80%;
+    height: 50px;
+    /* display: inline; */
+    font-size: 15px;
+    padding: 8px 0;
+    float: left;
+    line-height: 0px;
+    color: darkblue;   
+}
+
+/* footer styling */
+
+.foot {
+    width: 100%;
+    height: 40vh;
+    background-color: #333;
+    padding-top: 10px;
+    clear: both;
+    /* height: auto; */
+}
+
+.foot .f-box {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    /* height: auto; */
+    /* overflow:hidden; */
+}
+
+.f-box ul {
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding: 2vw;
+    /* height: auto; */
+    
+}
+
+.f-box ul li {
+    list-style: none;
+    margin: 0.5rem 0;
+}
+
+.f-box ul li a {
+
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.heading {
+    font-size: 1.5rem;
+
+}
+
+.footer-bottom {
+    clear: both;
+    height: 10vh;
+    background-color: rgb(24, 22, 22);
+}
+
+.foot-line {
+    clear: both;
+    text-align: center;
+    color: white;
+    padding: 3.5vh 0;
+    font-size: 1.2rem;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:1180px)
+{
+    .side-img {
+        width: 100%;
+        height: 20%;
+        /* float: left; */
+        
+    }
+
+    .side-box {
+        color: grey;
+        margin: 0;
+        /* float: left; */
+        width: 100%;
+        height: 50%;
+        text-align: left;
+        padding: 30px 0;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 900px)
+{
+    .side-img {
+        width: 100%;
+        height: 20%;
+        /* float: left; */
+        
+    }
+
+    .side-box {
+        color: grey;
+        margin: 0;
+        /* float: left; */
+        width: 100%;
+        height: 50%;
+        text-align: left;
+        padding: 30px 0;
+        
+    }
+    
+    .foot {
+        width: 100%;
+        height: 50vh;
+        background-color: #333;
+        padding-top: 10px;
+        clear: both;
+        /* height: auto; */
+    }
+    
+    
+    .f-box {
+        width: 70%;
+        height: 100%;
+        margin: auto;
+        
+    }
+
+
+    .f-box ul {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    .foot {
+
+        display: none;
+    }
+    
+}
